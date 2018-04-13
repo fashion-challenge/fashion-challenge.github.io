@@ -1,0 +1,344 @@
+    body {
+        margin: 0 auto;
+        overflow: hidden;
+        height: 100%;
+        font-family: Microsoft YaHei ! important;
+    }
+    
+    .navigation {
+        margin: 0 auto;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: #1c0d02;
+    }
+    
+    @media screen and (max-width:1920px) {
+        .navigation {
+            padding: 0px 300px;
+        }
+        .comp-text p {
+            margin-left: 120px;
+        }
+    }
+    
+    @media screen and (max-width: 1366px) {
+        .navigation {
+            padding: 0px 200px;
+        }
+        .comp-text p {
+            margin-left: 100px;
+        }
+    }
+    
+    #menu {
+        list-style-type: none;
+    }
+    
+    .logo {
+        padding: 0px 80px;
+    }
+    
+    #menu li {
+        float: left;
+        font-size: 16px;
+        color: #aabdd3;
+        cursor: pointer;
+    }
+    
+    #menu a {
+        float: left;
+        color: #aabdd3;
+        text-decoration: none;
+        padding: 5px 20px;
+    }
+    
+    #menu .active a {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .comp-text {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 60px;
+        font-weight: bold;
+        color: #e6eaea;
+        list-style-type: none;
+    }
+    
+    .comp-text p {
+        text-align: left;
+        line-height: 40px;
+    }
+    
+    .comp-tip {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    
+    .comp-tip span {
+        text-decoration: underline;
+    }
+    
+    .sign-btn {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        border: 0px;
+        border-radius: 50px;
+        background-color: #32be60;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .sign-btn:hover {
+        color: #fff;
+    }
+    
+    .section {
+        text-align: center;
+        font: 50px "Microsoft Yahei";
+        color: #fff;
+        height: 150px;
+    }
+    
+    #content_container {
+        height: 100%;
+        position: relative;
+        touch-action: none;
+        transform: translate3d(0px, 0px, 0px);
+        transition: all 700ms ease;
+    }
+    
+    .section:first-child {
+        background: url('../assets/images/index.png') no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .prize-section {
+        background: url('../assets/images/section5.png') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .date-list,
+    .prize-list {
+        list-style-type: none;
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+        height: 100%;
+        color: #333;
+    }
+    
+    .container img {
+        float: left;
+    }
+    
+    .intro-img {
+        margin-top: 50px;
+    }
+    
+    .introduction-content {
+        padding-top: 150px;
+        padding-left: 100px !important;
+    }
+    
+    .introduction-list {
+        width: 500px;
+        line-height: 40px;
+        margin-left: 400px;
+        list-style-type: none;
+        text-align: left;
+        font-size: 18px;
+        color: #333
+    }
+    
+    .fashion-style-text {
+        margin: 0 auto;
+        margin: 80px 50px 10px 30px;
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+        line-height: 30px;
+    }
+    
+    .btn-container div {
+        float: right;
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #cee4f9;
+        border-radius: 30px;
+        font-size: 14px;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 10px 50px 5px 0px;
+        background: #fff;
+    }
+    
+    .detail-intro {
+        border: 1px solid #cee4f9;
+        margin-right: 10px;
+    }
+    
+    .sample-data {
+        border: 1px solid #cfe3d0;
+    }
+    
+    .detail-intro a {
+        color: #508bc7;
+        text-decoration: none;
+    }
+    
+    .sample-data a {
+        color: #4c6655;
+        text-decoration: none;
+    }
+    
+    .btn-container div a:hover {
+        text-decoration: none;
+    }
+    
+    .btn-container div img {
+        float: right;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .img-container {
+        margin: 0 auto;
+        margin: 75px 113px 0px 113px;
+        height: 510px;
+    }
+    
+    .left-col,
+    .right-col {
+        float: left;
+    }
+    
+    .left-col {
+        margin-right: 32px;
+    }
+    
+    .left-col img,
+    .right-col img {
+        margin-top: 0px !important;
+    }
+    
+    .left-col img:nth-child(1) {
+        margin-bottom: 25px;
+    }
+    
+    .fashion-item-match {
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: left;
+        color: #333;
+        line-height: 40px;
+        margin-top: 100px;
+    }
+    
+    .fashion-item-img {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .comp-date {
+        margin: 100px 15px 15px 20px;
+        font-size: 16px;
+        color: #222;
+        text-align: left;
+    }
+    
+    .container table {
+        margin: 0 auto;
+        font-size: 14px;
+        width: 980px;
+        height: 390px;
+        border: 1px solid #e8e8e8;
+        border-collapse: collapse;
+    }
+    
+    .container table tr td {
+        border-bottom: 1px solid #e8e8e8;
+    }
+    
+    .container table tr:last-child {
+        border-bottom: none;
+    }
+    
+    table tr:nth-child(odd) {
+        color: #333;
+    }
+    
+    table tr:nth-child(even) {
+        color: #777;
+    }
+    
+    .footer {
+        height: 150px;
+        width: 100%;
+        background: #1b2126;
+        position: absolute;
+        bottom: 0px;
+    }
+    
+    .footer img {
+        width: 80px;
+        height: 40px;
+        margin-top: 38px;
+        margin-bottom: 20px;
+    }
+    
+    .footer div {
+        font-size: 16px;
+        font-weight: bold;
+        color: #999;
+    }
+    
+    .prize-list {
+        padding-top: 180px;
+    }
+    
+    .prize-bg {
+        float: left;
+        width: 263px;
+        height: 260px;
+        margin: 27px;
+        padding-top: 70px;
+        background: #fff;
+    }
+    
+    .prize-bg img {
+        position: absolute;
+        margin-left: 100px;
+    }
+    
+    .prize-text p {
+        margin-top: 120px;
+        text-align: center;
+        color: #616161;
+        font-size: 18px;
+    }
+    
+    .prize-text p:last-child {
+        font-size: 14px;
+        margin-top: 0px;
+    }
