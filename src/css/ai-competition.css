@@ -153,12 +153,11 @@
     }
     
     .intro-img {
-        margin-top: 50px;
+        margin-top: 25px;
     }
     
     .introduction-content {
-        padding-top: 150px;
-        padding-left: 100px !important;
+        padding-top: 200px;
     }
     
     .introduction-list {
@@ -167,7 +166,7 @@
         margin-left: 400px;
         list-style-type: none;
         text-align: left;
-        font-size: 18px;
+        font-size: 14px;
         color: #333
     }
     
@@ -253,10 +252,10 @@
     
     .fashion-item-match {
         margin: 0 auto;
-        font-size: 18px;
+        font-size: 14px;
         text-align: left;
         color: #333;
-        line-height: 40px;
+        line-height: 30px;
         margin-top: 100px;
     }
     
@@ -378,4 +377,8 @@
     
     .contact-us {
         margin-top: 200px;
+    }
+    
+    .contact-us p {
+        font-size: 24px;
     }
