@@ -18,7 +18,7 @@
     
     @media screen and (max-width:1920px) {
         .navigation {
-            padding: 0px 300px;
+            padding: 0px 200px;
         }
         .comp-text p {
             margin-left: 120px;
@@ -27,7 +27,7 @@
     
     @media screen and (max-width: 1366px) {
         .navigation {
-            padding: 0px 200px;
+            padding: 0px 100px;
         }
         .comp-text p {
             margin-left: 100px;
@@ -100,6 +100,7 @@
     
     .sign-btn:hover {
         color: #fff;
+        box-shadow: 1px 2px 3px #1c0d02;
     }
     
     .section {
@@ -193,6 +194,10 @@
         background: #fff;
     }
     
+    .btn-container div:hover {
+        box-shadow: 1px 2px 3px #999;
+    }
+    
     .detail-intro {
         border: 1px solid #cee4f9;
         margin-right: 10px;
@@ -261,7 +266,7 @@
     }
     
     .comp-date {
-        margin: 100px 15px 15px 20px;
+        margin: 200px 15px 15px 20px;
         font-size: 16px;
         color: #222;
         text-align: left;
@@ -313,8 +318,9 @@
         color: #999;
     }
     
-    .prize-list {
-        padding-top: 180px;
+    .prize-list p {
+        font-size: 16px;
+        font-weight: 400;
     }
     
     .prize-bg {
@@ -327,6 +333,9 @@
     }
     
     .prize-bg img {
+        float: left;
+        margin: 27px;
+        background: #fff;
         position: absolute;
         margin-left: 100px;
     }
@@ -341,4 +350,31 @@
     .prize-text p:last-child {
         font-size: 14px;
         margin-top: 0px;
+    }
+    
+    .organizer-list {
+        padding-top: 220px;
+        height: 300px;
+    }
+    
+    .organizer-bg {
+        float: left;
+        text-align: center;
+        height: 300px;
+        margin-left: 40px;
+    }
+    
+    .organizer-bg img {
+        width: 200px;
+        height: 260px;
+        margin-bottom: 10px;
+    }
+    
+    .organizer-bg p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .contact-us {
+        margin-top: 200px;
     }
