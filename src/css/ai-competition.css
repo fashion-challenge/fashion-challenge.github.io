@@ -119,7 +119,7 @@
     }
     
     .section:first-child {
-        background: url('../assets/images/index.png') no-repeat center fixed;
+        background: url('../assets/images/index.jpg') no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
