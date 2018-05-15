@@ -159,11 +159,12 @@
     .introduction-content {
         padding-top: 200px;
     }
-    
+
+
     .introduction-list {
-        width: 500px;
+        width: 720px;
         line-height: 40px;
-        margin-left: 400px;
+        margin-left: 70px;
         list-style-type: none;
         text-align: left;
         font-size: 14px;
