@@ -117,7 +117,7 @@
         transform: translate3d(0px, 0px, 0px);
         transition: all 700ms ease;
     }
-    
+
     .section:first-child {
         background: url('../assets/images/index.jpg') no-repeat center fixed;
         -webkit-background-size: cover;
@@ -182,7 +182,7 @@
     
     .btn-container div {
         float: right;
-        width: 120px;
+        width: 150px;
         height: 30px;
         line-height: 30px;
         border: 1px solid #cee4f9;
@@ -190,7 +190,7 @@
         font-size: 14px;
         overflow: hidden;
         cursor: pointer;
-        margin: 10px 50px 5px 0px;
+        margin: 10px 10px 5px 0px;
         background: #fff;
     }
     
